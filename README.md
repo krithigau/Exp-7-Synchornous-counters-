@@ -46,43 +46,79 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+/* 
+Create a New Project:
+
+Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+Create a New Design File:
+
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+Write the Combinational Logic Code:
+
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+Compile the Project:
+
+To compile the project, click on "Processing" > "Start Compilation" in the menu.
+Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+Analyze and Fix Errors:*
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+Review and fix any issues in your code if necessary.
+View the RTL diagram.
+6.*Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
+*/
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: U KRITHIGA 
+RegisterNumber:  23006499
 */
 
+UP COUNTER
 
+![upcounter code](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/82af4e9e-913a-4f34-bbd9-616fda5b6ffc)
 
+DOWN COUNTER
 
+![downcounter code](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/93844728-8c9d-45ac-9532-2fe54d15df30)
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+UP COUNTER
 
+![upcounter RTL](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/92ce7ec1-bf23-42c2-ab16-2ec200e1b19d)
 
+DOWN COUNTER
 
-
-
-
-
+![downcounter RTL](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/0c7b0d19-99f1-4bd5-a866-757b6736cdf2)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+UP COUNTER
+![upcounter timing](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/25f6777f-90c1-4887-aeb6-77b7813d9369)
 
-
-
+DOWN COUNTER
+![Downcounter Timeline](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/d88b5d7d-f349-444c-b9e0-5262bed9e1d6)
 
 ### TRUTH TABLE 
 
+UP COUNTER
 
+![upcounter TT](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/c0ef6ef2-6da7-4ec0-b42c-fb371ee6ce59)
 
+DOWN COUNTER
 
-
+![Downcounter TT](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/b8195b4d-64ea-46f0-a880-cfa42153228d)
 
 ### RESULTS 
+Thus the given upcounter and downcounter is verified using verilog programming. 
