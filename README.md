@@ -82,7 +82,6 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: U KRITHIGA 
 RegisterNumber:  23006499
 */
-
 UP COUNTER
 
 ![upcounter code](https://github.com/krithigau/Exp-7-Synchornous-counters-/assets/150319401/82af4e9e-913a-4f34-bbd9-616fda5b6ffc)
